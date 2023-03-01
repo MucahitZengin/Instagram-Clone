@@ -56,6 +56,8 @@ input.empty {
 body{ 
   /*1- İçerik ile birleşmemesi için body'e padding veriniz. */
   padding-top: 54px;  /* pt-5 yetmedi 48px */
+  /* 20- Bütün sayfanın arkaplan rengini Instagram'dan alıp uygulayın. */
+  background-color: rgb(255, 255, 255);
 }
 
 .logo{
@@ -66,4 +68,17 @@ body{
 .middlearea{
   /* 9- Class'da belirttiğimiz middlearea içinde maksimum yükseklik 200px olmalı ve bunu important ile yazmalısınız. (important'ın ne olduğunu, ne işe yaradığını henüz bilmiyorsanız bir "Css important nedir?" şeklinde aramanızı ve ne işe yaradığını öğrenmenizi öneririz. Unutmayın parametre vermek bazen istemediğiniz durumlara yol açabilir bilinçli kullanmak gerekir.) */
   max-height: 200px !important;
+}
+
+#sticky-sidebar{
+  /* 18- Stickysidebar bu panelin sayfayı aşağı kaydırdıkça onun da gelmesini sağlıyor. 
+         Bunu sağlamak için için CSS'in position property'sini kullanabilirsiniz.  */
+  position: sticky;
+  top: 54px;
+}
+
+.rightpanel{
+  /* 18- Rightpanel'de de arkaplan rengi beyaz olup kenarlık olmamalı. */
+  background-color: white;
+  border: none;
 }

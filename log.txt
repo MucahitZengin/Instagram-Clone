@@ -24,4 +24,13 @@ repo acilip clone eklendi
 14- Bookmark ikonunun offset'i 7 birim olmalı.✔
 15- Card header ve card footer'lar beyaz renk olmalı.✔
 16- Yorum paylaş metnini sağa alın.✔
-17- 
+
+28 Sub Sa-----------
+17- Sağ panele verilen alan sizce yeterli mi? Değilse düzeltin.
+
+1 Mar Cr-----------
+18- Sağ panel için stickysidebar ve rightpanel diye iki class verdiğimizi fark etmişsiniz. Stickysidebar bu panelin sayfayı aşağı kaydırdıkça onun da gelmesini sağlıyor. Bunu sağlamak için için CSS'in position property'sini kullanabilirsiniz. Rightpanel'de de arkaplan rengi beyaz olup kenarlık olmamalı. ✔
+
+19- Tümünü gör ve takip et yazılarını sağa alınız.✔
+
+20- Bütün sayfanın arkaplan rengini Instagram'dan alıp uygulayın.✔
