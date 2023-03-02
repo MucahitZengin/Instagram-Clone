@@ -81,4 +81,11 @@ body{
   /* 18- Rightpanel'de de arkaplan rengi beyaz olup kenarlık olmamalı. */
   background-color: white;
   border: none;
+  /* box-sizing: border-box; */
+  /* 17- Sağ panele verilen alan sizce yeterli mi? Değilse düzeltin. */
+  width: 100%;
+}
+
+.card{
+  margin-top:3%;
 }

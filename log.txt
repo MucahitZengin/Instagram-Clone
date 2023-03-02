@@ -26,7 +26,7 @@ repo acilip clone eklendi
 16- Yorum paylaş metnini sağa alın.✔
 
 28 Sub Sa-----------
-17- Sağ panele verilen alan sizce yeterli mi? Değilse düzeltin.
+17- Sağ panele verilen alan sizce yeterli mi? Değilse düzeltin.✔
 
 1 Mar Cr-----------
 18- Sağ panel için stickysidebar ve rightpanel diye iki class verdiğimizi fark etmişsiniz. Stickysidebar bu panelin sayfayı aşağı kaydırdıkça onun da gelmesini sağlıyor. Bunu sağlamak için için CSS'in position property'sini kullanabilirsiniz. Rightpanel'de de arkaplan rengi beyaz olup kenarlık olmamalı. ✔
